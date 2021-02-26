@@ -1,0 +1,36 @@
+
+@theme-primary:green;
+@color:yellow;
+@width:500px;
+
+.show{
+    text-align:center;
+    line-height:50px; 
+}
+
+// .border(@w,@line,@color){
+//     border:@w @line @color;
+// }
+
+.border(...){
+    border:@arguments;
+}
+
+h3{
+    background:@color;
+    width:@width;
+    .show;
+    &>.active{
+        .show;
+        .border(1px,solid,#000);
+    }
+    &-text{
+        height: 400px;
+    }
+    &:hover{
+        background: blue;
+    }
+}
+
+
+

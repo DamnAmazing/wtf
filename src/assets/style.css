@@ -1,0 +1,21 @@
+.show {
+  text-align: center;
+  line-height: 50px;
+}
+h3 {
+  background: yellow;
+  width: 500px;
+  text-align: center;
+  line-height: 50px;
+}
+h3 > .active {
+  text-align: center;
+  line-height: 50px;
+  border: 1px solid #000;
+}
+h3-text {
+  height: 400px;
+}
+h3:hover {
+  background: blue;
+}
